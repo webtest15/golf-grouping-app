@@ -1,9 +1,10 @@
-!pip install xlsxwriter openpyxl
 
+import streamlit as st
 import pandas as pd
 import math
-from google.colab import files
 import xlsxwriter
+from io import BytesIO
+
 
 # --- 1. 古いファイル削除 ---
 !rm -f players*.xlsx grouping_result.xlsx

@@ -1,8 +1,3 @@
-streamlit
-pandas
-openpyxl
-xlsxwriter
-
 !pip install xlsxwriter openpyxl
 
 import pandas as pd
